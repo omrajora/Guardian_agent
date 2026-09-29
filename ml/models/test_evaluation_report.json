@@ -1,0 +1,63 @@
+{
+  "evaluationTimestamp": "2026-09-28T17:15:52Z",
+  "testSetSize": 780,
+  "accuracy": 1.0,
+  "weightedF1": 1.0,
+  "confusionMatrix": [
+    [
+      261,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      194,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      187,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      138
+    ]
+  ],
+  "perClassMetrics": {
+    "LOW": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 261.0
+    },
+    "MEDIUM": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 194.0
+    },
+    "HIGH": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 187.0
+    },
+    "CRITICAL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 138.0
+    }
+  },
+  "latencyBenchmarkMs": {
+    "p50": 13.441800023429096,
+    "p95": 16.695519990753382
+  },
+  "status": "PASSED_EVALUATION"
+}

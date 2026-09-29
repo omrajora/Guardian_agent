@@ -1,0 +1,32 @@
+{
+  "totalRecords": 5200,
+  "classCounts": {
+    "LOW": 1600,
+    "HIGH": 1300,
+    "MEDIUM": 1300,
+    "CRITICAL": 1000
+  },
+  "splits": {
+    "train": 3639,
+    "val": 781,
+    "test": 780
+  },
+  "featureColumns": [
+    "action",
+    "toolCategory",
+    "toolSensitivity",
+    "dataType",
+    "destinationType",
+    "volume",
+    "agentRole",
+    "hourOfDay",
+    "recentFailedActions"
+  ],
+  "labelClasses": [
+    "LOW",
+    "MEDIUM",
+    "HIGH",
+    "CRITICAL"
+  ],
+  "version": "v1.0.0"
+}

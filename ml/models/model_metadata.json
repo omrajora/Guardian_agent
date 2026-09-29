@@ -1,0 +1,14 @@
+{
+  "modelName": "guardian-risk-randomforest",
+  "version": "v1.0.0",
+  "algorithm": "RandomForest",
+  "datasetVersion": "v1.0.0",
+  "validationAccuracy": 0.9974391805377721,
+  "validationF1": 0.9974383748297679,
+  "classes": [
+    "LOW",
+    "MEDIUM",
+    "HIGH",
+    "CRITICAL"
+  ]
+}
